@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<root>
+<list>
+<item> 
+          <name>英数+ spaceでenter</name> 
+          <identifier>private.remap.jis_enthumble_prev_tab</identifier> 
+          <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU,KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen> 
+          <autogen>__KeyToKey__KeyCode::SPACE,ModifierFlag::EXTRA1,KeyCode::ENTER</autogen> 
+</item> 
+<item> 
+          <name>英数+ nでdelete</name> 
+          <identifier>private.remap.jis_enthumble_prev_tab2</identifier> 
+          <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU,KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen> 
+          <autogen>__KeyToKey__KeyCode::N,ModifierFlag::EXTRA1,KeyCode::DELETE</autogen> 
+</item> 
+<item> 
+          <name>英数+ mでright + delete</name> 
+          <identifier>private.remap.jis_enthumble_prev_tab3</identifier> 
+          <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU,KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen> 
+          <autogen>__KeyToKey__KeyCode::M,ModifierFlag::EXTRA1,KeyCode::CURSOR_RIGHT, KeyCode::DELETE</autogen> 
+</item> 
+<item> 
+          <name>英数+ fでescape</name> 
+          <identifier>private.remap.jis_enthumble_prev_tab4</identifier> 
+          <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU,KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen> 
+          <autogen>__KeyToKey__KeyCode::F,ModifierFlag::EXTRA1,KeyCode::ESCAPE</autogen> 
+</item> 
+<item> 
+          <name>英数+ hでleft</name> 
+          <identifier>private.remap.jis_enthumble_prev_tab5</identifier> 
+          <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU,KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen> 
+          <autogen>__KeyToKey__KeyCode::H,ModifierFlag::EXTRA1,KeyCode::CURSOR_LEFT</autogen> 
+</item> 
+<item> 
+          <name>英数+ jでdown</name> 
+          <identifier>private.remap.jis_enthumble_prev_tab6</identifier> 
+          <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU,KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen> 
+          <autogen>__KeyToKey__KeyCode::J,ModifierFlag::EXTRA1,KeyCode::CURSOR_DOWN</autogen> 
+</item> 
+<item> 
+          <name>英数+ kでUP</name> 
+          <identifier>private.remap.jis_enthumble_prev_tab7</identifier> 
+          <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU,KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen> 
+          <autogen>__KeyToKey__KeyCode::K,ModifierFlag::EXTRA1,KeyCode::CURSOR_UP</autogen> 
+</item> 
+<item> 
+          <name>英数+ LでRIGHT</name> 
+          <identifier>private.remap.jis_enthumble_prev_tab8</identifier> 
+          <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU,KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen> 
+          <autogen>__KeyToKey__KeyCode::L,ModifierFlag::EXTRA1,KeyCode::CURSOR_RIGHT</autogen> 
+</item> 
+<item> 
+          <name>ctrl連続でかな+ i</name> 
+          <identifier>private.remap.jis_enthumble_prev_tab9-2</identifier> 
+          <autogen>
+          __DoublePressModifier__
+          KeyCode::CONTROL_L,
+          KeyCode::CONTROL_L,
+          KeyCode::I,
+          KeyCode::JIS_KANA
+	</autogen>
+</item> 
+<item> 
+          <name>shift連続でesc + 英数</name> 
+          <identifier>private.remap.jis_enthumble_prev_tab10</identifier> 
+          <autogen>
+          __DoublePressModifier__
+          KeyCode::SHIFT_L,
+          KeyCode::SHIFT_L,
+          KeyCode::ESCAPE,
+          KeyCode::JIS_EISUU
+	</autogen>
+</item> 
+<item> 
+          <name>ctrl+ i</name> 
+          <identifier>private.remap.jis_enthumble_prev_tab11</identifier> 
+          <autogen>
+	  __KeyToKey__
+	    KeyCode::I, ModifierFlag::CONTROL_L,
+	    KeyCode::I,
+            KeyCode::JIS_KANA
+	</autogen>
+</item> 
+<item> 
+          <name>ctrl+ n</name> 
+          <identifier>private.remap.jis_enthumble_prev_tab12</identifier> 
+          <autogen>
+	  __KeyToKey__
+	    KeyCode::N, ModifierFlag::CONTROL_L,
+            KeyCode::ESCAPE,
+            KeyCode::JIS_EISUU,
+            KeyCode::JIS_COLON,
+            KeyCode::W,
+            KeyCode::RETURN
+	</autogen>
+</item> 
+</list>
+</root>
