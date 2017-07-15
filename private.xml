@@ -98,7 +98,8 @@
           <name>英数+ sでコマンド+ s</name> 
           <identifier>private.remap.jis_enthumble_prev_tab13</identifier> 
 	  <autogen>
-	  <autogen>__KeyOverlaidModifier__ 
+	  <autogen>
+	  __KeyOverlaidModifier__ 
 	  KeyCode::JIS_EISUU,
 	  KeyCode::VK_MODIFIER_EXTRA1, 
 	  KeyCode::JIS_EISUU
@@ -109,6 +110,22 @@
 	      KeyCode::S, 
 	      ModifierFlag::COMMAND_L
 	  </autogen>
+</item> 
+<item> 
+          <name>英数+ gでtab</name> 
+          <identifier>private.remap.jis_enthumble_prev_tab14</identifier> 
+          <autogen>
+	  __KeyOverlaidModifier__ 
+	  KeyCode::JIS_EISUU,
+	  KeyCode::VK_MODIFIER_EXTRA1, 
+	  KeyCode::JIS_EISUU
+	  </autogen> 
+          <autogen>
+	  __KeyToKey__
+	  KeyCode::G,
+	  ModifierFlag::EXTRA1,
+	  KeyCode::TAB
+	  </autogen> 
 </item> 
 </list>
 </root>
