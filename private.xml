@@ -94,5 +94,21 @@
             KeyCode::RETURN
 	</autogen>
 </item> 
+<item> 
+          <name>英数+ sでコマンド+ s</name> 
+          <identifier>private.remap.jis_enthumble_prev_tab13</identifier> 
+	  <autogen>
+	  <autogen>__KeyOverlaidModifier__ 
+	  KeyCode::JIS_EISUU,
+	  KeyCode::VK_MODIFIER_EXTRA1, 
+	  KeyCode::JIS_EISUU
+	  </autogen>
+	    __KeyToKey__
+	      KeyCode::S, 
+	      ModifierFlag::EXTRA1,
+	      KeyCode::S, 
+	      ModifierFlag::COMMAND_L
+	  </autogen>
+</item> 
 </list>
 </root>
