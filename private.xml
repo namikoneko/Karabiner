@@ -127,5 +127,21 @@
 	  KeyCode::TAB
 	  </autogen> 
 </item> 
+<item> 
+          <name>英数+ vでtab</name> 
+          <identifier>private.remap.jis_enthumble_prev_tab15</identifier> 
+          <autogen>
+	  __KeyOverlaidModifier__ 
+	  KeyCode::JIS_EISUU,
+	  KeyCode::VK_MODIFIER_EXTRA1, 
+	  KeyCode::JIS_EISUU
+	  </autogen> 
+          <autogen>
+	  __KeyToKey__
+	  KeyCode::V,
+	  ModifierFlag::EXTRA1,
+	  KeyCode::TAB
+	  </autogen> 
+</item> 
 </list>
 </root>
